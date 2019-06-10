@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+  color: darkslategray;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+#input {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+button {
+  display: block;
+  margin: 1rem auto 3rem auto;
+  padding: 0.7rem 1.5rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.4rem;
+}
+button:hover {
+  background: cyan;
+  cursor: pointer;
+}
+h2 {
+  font-size: 2rem;
+  color: darkslategray;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+h3 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  font-size: 1rem;
+  color: darkslategray;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  h3 {
+    width: 40%;
+  }
+}
